@@ -1,4 +1,4 @@
-# Visualization of patch tokens which have top k% similarity to cls token.
+# Visualization of patch tokens which have top k% similarity to cls token
 
 General workflow:
 ![](materials/workflow.png)
