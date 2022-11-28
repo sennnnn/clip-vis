@@ -96,9 +96,6 @@ class CLIPVisual(nn.Module):
         return cls_token, patch_tokens
 
 
-model = CLIPVisual()
-
-
 def top_percen_sim_tokens_vis(img, cls_token, patch_tokens, rate=0.25, palette="mako"):
 
     H, W = img.shape[:2]
@@ -178,6 +175,8 @@ def main():
     palette_set = ["rocket", "mako"]
 
     assert palette in palette_set
+
+    model = CLIPVisual()
 
     raw_img = Image.open(path)
     drawn_img = np.array(raw_img.copy())
