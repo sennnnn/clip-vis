@@ -45,7 +45,7 @@ python clip_vis_v2.py -i demo.jpg -o drawn_single.jpg -b box.txt -r 0.25 -p viri
 
 2. calculate top 25% patch tokens for multiple boxes:
 ```bash
-python clip_vis.py -i demo.jpg -o drawn_multiple.jpg -b box.txt -r 0.25
+python clip_vis_v2.py -i demo.jpg -o drawn_multiple.jpg -b box.txt -r 0.25
 ```
 
 ![](materials/drawn_multiple_v2.jpg)
